@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,500" rel="stylesheet');
+
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.header
+{
+	height: 1066px;
+	width: 1999px;
+	padding-top: 55px;
+	background-image: url(../img/2-layers.jpg);
+	background-size: cover;
+
+	
+
+}
+
+.logo
+{
+	 width: 100px;
+	 height: 27px;
+}
+
+
+
+.header__top
+{
+	width: 1999px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left:  264px;
+	padding-right: 264px;
+
+
+}
+
+.nav{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.nav__list
+{
+	list-style-type: none;
+	display: flex;
+	color: #fff;
+
+}
+.nav__item
+{
+	margin-left: 65px;
+}
+
+.nav__link
+{
+	display: block;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.35px;
+
+}
+
+.nav__search
+{
+	background-color: unset;
+	border: none;
+	width: 23px;
+	height: 23px;
+	background-image: url(../img/Vector_Smart_Object.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content
+{
+	
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 332px 0;
+
+}
+
+
+.Alecto
+{
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+
+}
+
+.text__content
+{
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+}
+
+.text__latin
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+	font-size: 30px;
+
+}
+
+.more
+{
+	width: 183px;
+	height: 47px;
+	border-radius: 24px;
+	border: 2px solid #ffffff;
+	background-color: #00b6cb;
+	background: transparent;
+	margin-top: 67px;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.35px;
+	margin: 65px 0; 
+}
+
+
+.btn_point{
+	width: 10px;
+	height: 10px;
+	border: 2px solid #ffffff;
+	background: transparent;
+	border-radius: 6px;
+	margin: 0 5px;
+}
+
+.btn_point:hover
+{
+	background-color:#ffffff;
+}
+
+
+.arrows
+{
+	position: absolute;
+	display: flex;
+	width: 1473px;
+	justify-content: space-between;
+
+}
+
+
+.arrow 
+{
+	width: 37px;
+	height: 57px;
+}
+
+.down__arrow
+{
+	display: inline-block;
+	text-align: center;
+	margin-top: 263px;
+}
+
+
